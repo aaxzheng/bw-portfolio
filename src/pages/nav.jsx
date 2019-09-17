@@ -12,13 +12,13 @@ class NavBar extends React.Component {
         return (
             <div className="nav-main">
                 <div className="nav-links">
-                    <Link className="nav-link" to="/">
-                        About
+                    <Link className="nav-link" to="/contact">
+                        Contact
                     </Link>
-                    <Link className="nav-link" to="/">
+                    <Link className="nav-link" to="/resume">
                         Resume
                     </Link>
-                    <Link className="nav-link" to="/">
+                    <Link className="nav-link" to="/project">
                         Projects
                     </Link>
                 </div>

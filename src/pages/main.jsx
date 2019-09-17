@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "../../public/css/main.css";
 
 
@@ -22,8 +23,8 @@ class Main extends React.Component {
                         Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. 
                         </div>
                         <div className="main-btns">
-                            <div className="main-btn"> About Me </div>
-                            <div className="main-btn"> My Projects </div>
+                            <Link className="main-btn-link" to="/contact"><div className="main-btn"> About Me </div></Link> 
+                            <Link className="main-btn-link" to="/project"><div className="main-btn"> My Projects </div></Link>
                         </div>
                     </div>
                 </div>

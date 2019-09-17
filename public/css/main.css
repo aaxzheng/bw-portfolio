@@ -58,3 +58,9 @@
     color:black;
     font-weight: 700;
 }
+
+.main-btn-link {
+    text-decoration:none;
+    color:inherit;
+    font-size:inherit;
+}

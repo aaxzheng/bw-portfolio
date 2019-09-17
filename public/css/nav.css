@@ -1,0 +1,29 @@
+.nav-main {
+    display:flex;
+    color:#9e9e9e;
+    background-color: none;
+    z-index:5;
+    height: 5vmin;
+    width:100%;
+    position:fixed;
+    justify-content: flex-end;
+    font-size: 3vmin;
+}
+
+.nav-links {
+    width: 40vmin;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 3vmin;
+    margin-right: 7vmin;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:#9e9e9e;
+}
+
+.nav-link:visited {
+    text-decoration: none;
+    color:#9e9e9e;
+}

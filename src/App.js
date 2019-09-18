@@ -4,7 +4,7 @@ import './App.css';
 import Main from "./pages/main";
 import NavBar from './pages/nav';
 import Resume from './pages/resume';
-import Project from './pages/project';
+import Project from './pages/projects/project';
 import Contact from './pages/contact';
 
 const App = () => (

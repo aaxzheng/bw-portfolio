@@ -2,8 +2,7 @@ import React from 'react';
 import '../../../public/css/project.css';
 import '../../../public/css/main.css';
 import { projectList } from './project-list';
-import Modal from "./modal";
-
+import {Link} from 'react-router-dom';
 
 class Project extends React.Component {
     constructor(props) {
@@ -41,7 +40,6 @@ class Project extends React.Component {
 
     render() {
         let projects;
-        let show = this.state.show;
         projects = this.state.projects.map((project,idx) => {
             let color = this.state.colors[idx % 6];
             let info;
@@ -52,21 +50,28 @@ class Project extends React.Component {
             }
             return (
                 <div 
-                 key={idx}
                  className={"project-box-main " + color} 
                  onMouseOver={(e) => this.handleMouseOver(e,idx)} 
                  onMouseLeave={this.handleMouseLeave}
-                 onClick={(e) => this.toggleModal(e,project)}
+                 key={idx}
                  >
+                <Link to={{
+                    pathname: '/show',
+                    state: {
+                        project: project
+                    }
+                }}
+                    className="project-link"
+                >
                     <div className={"project-box-info " + info}> 
                         {projectName}
                     </div>
+                 </Link>
                 </div>
             )
         })
         return (
             <div className="project-main">
-                <Modal show={show} toggleModal={this.toggleModal} project={this.state.selected}/>
                 <div className="project-wrap wrapper">
                     <div className="project-intro">
                         My Projects

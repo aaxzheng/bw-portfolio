@@ -6,6 +6,8 @@ import NavBar from './pages/nav';
 import Resume from './pages/resume';
 import Project from './pages/projects/project';
 import Contact from './pages/contact';
+import Show from './pages/projects/project-show';
+
 
 const App = () => (
   <HashRouter>
@@ -15,6 +17,7 @@ const App = () => (
       <Route exact path="/resume" component={Resume} />
       <Route exact path="/project" component={Project} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/show" component={Show} />
     </div>
   </HashRouter>
 );

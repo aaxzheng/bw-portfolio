@@ -91,3 +91,12 @@
     font-size: 2.5vmin;
     color:black;
 }
+
+.project-link {
+ text-decoration: none;
+}
+
+.project-link:visited {
+    text-emphasis: none;
+    color:white;
+}

@@ -1,0 +1,35 @@
+.show-main {
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0, 0, 0, 0.959);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-body {
+    width:80%;
+    height:100%;
+    background-color: white;
+    overflow-y:scroll;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-title {
+    margin-top: 5%;
+    font-size:8vmin;
+}
+
+.show-description {
+    margin-top: 5%;
+    font-size: 4vmin;
+    text-align: center;
+
+}
+
+.show-img {
+    margin-top: 10vmin;
+    height: 30vmin;
+    width: 44vmin;
+}

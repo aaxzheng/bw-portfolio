@@ -1,7 +1,6 @@
 .nav-main {
     display:flex;
-    color:#9e9e9e;
-    background-color: rgba(0, 0, 0, 0.815);
+    color:#a09d33;
     z-index:5;
     height: 7vmin;
     width:100%;
@@ -20,10 +19,12 @@
 
 .nav-link {
     text-decoration: none;
-    color:#9e9e9e;
+    color:#a09d33;
+    
 }
 
 .nav-link:visited {
     text-decoration: none;
-    color:#9e9e9e;
+    color:#a09d33;
+    
 }

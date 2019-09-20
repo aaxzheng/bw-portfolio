@@ -30,7 +30,6 @@ class Modal extends React.Component {
         if (this.state.show === false) {
             show = "hide"
         }
-        debugger;
         return (
             <div className={"modal-wrapper " + show} onClick={(e) => this.handleClick(e)}>
                 <div className="modal-main" onClick={(e) => e.stopPropagation()} style={{"backgroundImage":"url(" + this.state.project.background +")", "backgroundSize": "100% 100%"}}>

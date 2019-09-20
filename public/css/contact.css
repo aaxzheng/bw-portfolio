@@ -1,0 +1,84 @@
+.contact-main {
+    width:100vw;
+    height:100vh;
+    background-color:rgb(36, 37, 133);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-body {
+    width:80%;
+    height:70%;
+    display:flex;
+    align-items: center;
+    background-color: rgb(158, 158, 228);
+    border-radius:50px;
+}
+
+.contact-left {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:38%;
+    height:80%;
+    border-right: 1px solid black;
+    margin-left:20vmin;
+}
+
+.contact-msg {
+    font-size:6vmin;
+    margin-bottom:10vmin;
+}
+
+.contact-info {
+    margin-left:2vmin;
+    font-size:3.5vmin;
+}
+
+.contact-right {
+    font-size:3.5vmin;
+    margin-left: 5vmin;
+    width:40%;
+}
+
+.contact-social-holder {
+    margin-bottom: 5vmin;
+}
+
+.contact-social {
+    margin-bottom: 2vmin;
+}
+
+.contact-resume {
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:10%;
+    margin-top:2vmin;
+}
+
+.resume-btn {
+    display:flex;
+    justify-content: center;
+    margin-top:5vmin;
+    text-decoration: none;
+    color:black;
+    background-color: #e2c3f5;
+    padding: 2vmin;
+    border:1px solid black;
+    font-size:3vmin;
+    border-radius:50px;
+    min-width:30vmin;
+}
+
+.resume-btn:visited {
+    margin-top:5vmin;
+    text-decoration: none;
+    color:black;
+    background-color: #e2c3f5;
+    padding: 2vmin;
+    border:1px solid black;
+    font-size:3vmin;
+    border-radius:50px;
+}

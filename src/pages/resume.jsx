@@ -62,11 +62,16 @@ class Resume extends React.Component {
         return (
             <div>
                 <div className="resume-intro">
-                    {/* <div className="contact-resume">
-                        <a href={resume} download="Bailey_Wei_Resume.pdf" className="resume-btn resume-page">
-                            Resume <img className="contact-ico" src={pdf} ></img>
-                        </a>
-                    </div> */}
+                    <div className="intro-wrapper">
+                        <div className="intro-main">
+                            <div className="intro-msg" > Learn more about what I can do. </div>
+                            <div >
+                                <a href={resume} download="Bailey_Wei_Resume.pdf" id="resume-page" className="resume-btn">
+                                    Resume <img className="contact-ico" src={pdf} ></img>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="resume-main">
                     <div className="resume-section">

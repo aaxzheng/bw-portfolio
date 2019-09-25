@@ -42,7 +42,7 @@ class Contact extends React.Component {
     //                     </div>
                         }
                         <div className="contact-resume">
-                            <a href={resume} download="Bailey_Wei_Resume.pdf" className="resume-btn">
+                            <a href={resume} download="Bailey_Wei_Resume.pdf"  className="resume-btn">
                                 Resume <img className="contact-ico" src={pdf} ></img>
                             </a>
                         </div>

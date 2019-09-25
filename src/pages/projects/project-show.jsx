@@ -9,27 +9,20 @@ class Show extends React.Component {
         super(props);
         this.state = {
             activeItemIndex: 0,
-            children: [
-                {
-                 background: require("../../../public/img/main-background.jpg")
-                },
-                {
-                    background: require("../../../public/img/main-background.jpg")  
-                },
-                {
-                    background: require("../../../public/img/main-background.jpg")
-                },
-                {
-                    background: require("../../../public/img/main-background.jpg")
-                },
-            ],
+            children: [],
             selected: "",
             show: false,
-            thumbnail: require("../../../public/img/main-background.jpg"),
+            thumbnail: "",
         };
         this.toggleModal = this.toggleModal.bind(this);
     }
 
+
+    componentWillMount() {
+        if (this.props.location.state) {
+            this.setState({children: this.props.location.state.project.children, thumbnail: this.props.location.state.project.thumbnail});
+        }
+    }
 
     toggleModal(e, image) {
         if (image) {
@@ -55,10 +48,10 @@ class Show extends React.Component {
 
         return (
             <div className="show-main-container">
+                <Modal show={show} toggleModal={this.toggleModal} image={this.state.selected} />
 
                 <div className="show-main" style={{ "backgroundImage": "url(" + this.state.thumbnail + ")", "backgroundSize": "100% 100%"}}>
                     <div className="show-main-wrapper">
-                        <Modal show={show} toggleModal={this.toggleModal} image={this.state.selected} />
                         <div className="show-title">{project}</div>
                         {test}
                     </div>
@@ -69,18 +62,18 @@ class Show extends React.Component {
                             <ItemsCarousel
                                 gutter={12}
                                 activePosition={'center'}
-                                chevronWidth={300}
+                                chevronWidth={60}
                                 disableSwipe={false}
-                                alwaysShowChevrons={true}
+                                alwaysShowChevrons={false}
                                 numberOfCards={2}
                                 slidesToScroll={1}
-                                outsideChevron={false}
+                                outsideChevron={true}
                                 showSlither={true}
                                 firstAndLastGutter={true}
                                 activeItemIndex={this.state.activeItemIndex}
                                 requestToChangeActive={value => this.setState({ activeItemIndex: value % this.state.children.length})}
-                                rightChevron={'.'}
-                                leftChevron={'.'}
+                                rightChevron={'>'}
+                                leftChevron={'<'}
                                 style={{"width": "181vmin", "marginRight":"5vmin"}}
                                 >
                                 {

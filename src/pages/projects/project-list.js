@@ -3,32 +3,68 @@ module.exports = {
         {
             projectName: "Project 1",
             description: "This is the description for project 1",
+            longDescription: "",
             projectNum: "one",
+            children: [
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+            ],
+            thumbnail: require("../../../public/img/main-background.jpg")
         },
         {
             projectName: "Project 2",
             description: "This is the description for project 2",
-            projectNum: "two"
+            longDescription: "",
+            projectNum: "two",
+            children: [
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+            ],
+            thumbnail: require("../../../public/img/main-background.jpg")
+
         },
         {
             projectName: "Project 3",
             description: "This is the description for project 3",
-            projectNum: "three"
+            longDescription: "",
+            projectNum: "three",
+            children: [
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+                {
+                    background: require("../../../public/img/main-background.jpg")
+                },
+            ],
+            thumbnail: require("../../../public/img/main-background.jpg")
+
         },
-        {
-            projectName: "Project 4",
-            description: "This is the description for project 4",
-            projectNum: "four"
-        },
-        {
-            projectName: "Project 5",
-            description: "This is the description for project 5",
-            projectNum: "five"
-        },
-        {
-            projectName: "Project 6",
-            description: "This is the description for project 6",
-            projectNum: "six"
-        },
+      
     ] 
 }

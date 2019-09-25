@@ -1,7 +1,7 @@
 .contact-main {
     width:100vw;
     height:100vh;
-    background-color:rgb(36, 37, 133);
+    background-color:rgb(0, 0, 0);
     display:flex;
     align-items: center;
     justify-content: center;
@@ -12,8 +12,7 @@
     height:70%;
     display:flex;
     align-items: center;
-    background-color: rgb(158, 158, 228);
-    border-radius:50px;
+    background-color: rgb(255, 255, 255);
 }
 
 .contact-left {
@@ -24,11 +23,12 @@
     height:80%;
     border-right: 1px solid black;
     margin-left:20vmin;
+    padding-right: 5%;
 }
 
 .contact-msg {
     font-size:6vmin;
-    margin-bottom:10vmin;
+    margin-bottom: 5vmin;
 }
 
 .contact-info {
@@ -62,13 +62,12 @@
     display:flex;
     justify-content: center;
     margin-top:5vmin;
+    align-items: center;
     text-decoration: none;
     color:black;
-    background-color: #e2c3f5;
     padding: 2vmin;
     border:1px solid black;
     font-size:3vmin;
-    border-radius:50px;
     min-width:30vmin;
 }
 
@@ -81,4 +80,20 @@
     border:1px solid black;
     font-size:3vmin;
     border-radius:50px;
+}
+
+.contact-ico {
+    width:3vmin;
+    height:3vmin;
+    margin-left: 5%;
+}
+
+.contact-linkedin {
+    width:5vmin;
+    height:5vmin;
+}
+
+.resume-page {
+    color:white;
+    border: 1px solid white;
 }

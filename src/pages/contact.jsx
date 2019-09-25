@@ -1,5 +1,8 @@
 import React from 'react'
 import '../../public/css/contact.css';
+const pdf = require("../../public/img/adobe-pdf-icon.png");
+const ln = require("../../public/img/linkedin-ico.png")
+
 const resume = require("../../public/img/Bailey_Wei_Resume.pdf");
 class Contact extends React.Component {
     constructor(props) {
@@ -14,30 +17,33 @@ class Contact extends React.Component {
 
                 <div className="contact-left">
                     <div className="contact-msg">
-                        Want to reach me?
+                        Ways to reach me.
                     </div>
                     <div className="contact-info"> 
-                        Your-Email@Someplace.com
+                        business@baileywei.com 
+                        bw489@cornell.edu
                         <br/>
                         <br />
-                        1-555-555-5555
+                        1-646-371-6126
                     </div>
                 </div>
                 <div className="contact-right">
                     <div className="contact-social-holder">
                         <div className="contact-resume">
                             <a href="https://linkedin.com/in/baileywei" target="_blank" className="resume-btn">
-                                    LinkedIn
+                                LinkedIn <img className="contact-linkedin" src={ln} />
                             </a>
                         </div>
-                        <div className="contact-resume">
-                                <a href="https://github.com/bw-tech" target="_blank" className="resume-btn">
-                                    Github
-                            </a>
-                        </div>
+ {
+    //  /* {                       <div className="contact-resume"> */}
+    //                             <a href="https://github.com/bw-tech" target="_blank" className="resume-btn">
+    //                             Github
+    //                         </a>
+    //                     </div>
+                        }
                         <div className="contact-resume">
                             <a href={resume} download="Bailey_Wei_Resume.pdf" className="resume-btn">
-                                Get My Resume
+                                Resume <img className="contact-ico" src={pdf} ></img>
                             </a>
                         </div>
                     </div>

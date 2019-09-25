@@ -54,7 +54,7 @@ class Resume extends React.Component {
             return (
                 <div key={idx}>
                     <div className="job-company projects">{project.name}</div>
-                    <div className="job-details projects">{details}</div>
+                    <div className="job-details ">{details}</div>
                 </div>
             )
         })
@@ -64,7 +64,7 @@ class Resume extends React.Component {
                 <div className="resume-intro">
                     <div className="intro-wrapper">
                         <div className="intro-main">
-                            <div className="intro-msg" > Learn more about what I can do. </div>
+                            <div className="intro-msg" > Learn more about what I can do </div>
                             <div >
                                 <a href={resume} download="Bailey_Wei_Resume.pdf" id="resume-page" className="resume-btn">
                                     Resume <img className="contact-ico" src={pdf} ></img>

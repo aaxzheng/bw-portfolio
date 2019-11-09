@@ -1,0 +1,72 @@
+.modal-wrapper {
+    width:100vw;
+    height:100vh;
+    background-color: rgb(0, 0, 0,0.8);
+    position:fixed;
+    z-index:10;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-main {
+    width:140vmin;
+    height:90vmin;
+    z-index:11;
+    position:fixed;
+    overflow-y:scroll;
+    display:flex;
+    justify-content: center;
+}
+
+.show {
+    display:flex;
+}
+
+.hide {
+    display:none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(60, 69, 148); 
+  border-radius: 10px;
+}
+
+.modal-body {
+  margin-top: 2%;
+  color:white;
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  overflow-y: scroll;
+}
+
+.modal-title {
+  font-size: 6vmin;
+}
+
+.modal-picture {
+  background-image: url(../img/project-1.jpg);
+  width:85%;
+  height:50%;
+  background-size:100% 100%;
+  margin-top: 4%;
+  background-repeat: no-repeat;
+}
+
+.modal-info {
+  font-size:4vmin;
+  margin-top:2%;
+  width:100%;
+  overflow-wrap: break-word;
+  height:0; 
+}

@@ -15,12 +15,12 @@ class Main extends React.Component {
                 <div className="wrapper">
                     <div className="main-info">
                         <div className="main-name">
-                            Your Name Goes Here
+                            Hey, welcome my friend.
                         </div>
                         <div className="main-bio">
-                        Your bio goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-                        Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. 
+                            I'm a machine learning engineer with demonstrated experience in deep learning and iOS development.
+                            Recently graduated with a Masters in Operations Research and Information Engineering from Cornell University. 
+                            Open to talk about interesting opportunies, basketball, and games.
                         </div>
                         <div className="main-btns">
                             <Link className="main-btn-link" to="/contact"><div className="main-btn"> About Me </div></Link> 

@@ -3,6 +3,7 @@
     height:100vh;
     background-image:url('../img/main-background.jpg');
     background-size: 100vw 100vh;
+    font-family: 'Merriweather', serif;
 }
 
 .wrapper {

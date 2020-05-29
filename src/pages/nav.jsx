@@ -11,7 +11,7 @@ class NavBar extends React.Component {
     render() {
         return (
             <div className="nav-main">
-                <div className="nav-links">
+                {/* <div className="nav-links">
                     <Link className="nav-link" to="/contact">
                         Contact
                     </Link>
@@ -21,7 +21,7 @@ class NavBar extends React.Component {
                     <Link className="nav-link" to="/project">
                         Projects
                     </Link>
-                </div>
+                </div> */}
             </div>
         );
     }

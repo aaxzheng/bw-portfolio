@@ -50,12 +50,12 @@ class Show extends React.Component {
             <div className="show-main-container">
                 <Modal show={show} toggleModal={this.toggleModal} image={this.state.selected} />
 
-                <div className="show-main" style={{ "backgroundImage": "url(" + this.state.thumbnail + ")", "backgroundSize": "100% 100%"}}>
+                {/* <div className="show-main" style={{ "backgroundImage": "url(" + this.state.thumbnail + ")", "backgroundSize": "100% 100%"}}>
                     <div className="show-main-wrapper">
                         <div className="show-title">{project}</div>
                         {test}
                     </div>
-                </div>
+                </div> */}
                     <div className="show-body">
                         <div className="show-description">{ description + " " + description + description + " " + description + description + " " + description + description + " " + description + description + " " + description + description + " " + description + description + " " + description + description + " " + description + description + " " + description + description + " " + description + description + " " + description + description + " " + description }</div>
                         <div style={{ "maxWidth": "180vmin", "marginBottom": "5%"}}>

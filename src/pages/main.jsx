@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from "react-router-hash-link";
 import "../../public/css/main.css";
 
 
@@ -22,7 +22,7 @@ class Main extends React.Component {
                         </div>
                         <div className="main-btns">
                             <a className="main-btn-link" href={'../../img/Bailey_Wei_Resume.pdf'} download="Bailey_Wei_Resume.pdf"><div className="main-btn"> Resume </div></a> 
-                            <a className="main-btn-link" href="#my-projects"><div className="main-btn"> My Projects </div></a>
+                            <Link smooth className="main-btn-link" to="#my-projects"><div className="main-btn"> My Projects </div></Link>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ class Main extends React.Component {
                         Open to talk about interesting opportunies, basketball, and games.
                     </div>
                 </div>
-                <div className={'main-project'} name={'my-projects'}>
+                <div className={'main-project'} id={'my-projects'}>
                     <div className={'main-bio-intro'}>
                         My Projects
                     </div>

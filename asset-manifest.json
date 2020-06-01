@@ -1,10 +1,14 @@
 {
-  "main.css": "static/css/main.cd9517c2.css",
-  "main.css.map": "static/css/main.cd9517c2.css.map",
-  "main.js": "static/js/main.6183bb2c.js",
-  "main.js.map": "static/js/main.6183bb2c.js.map",
-  "static\\media\\Bailey_Wei_Resume.pdf": "static/media/Bailey_Wei_Resume.313084c2.pdf",
+  "main.css": "static/css/main.df8f4000.css",
+  "main.css.map": "static/css/main.df8f4000.css.map",
+  "main.js": "static/js/main.d6275c54.js",
+  "main.js.map": "static/js/main.d6275c54.js.map",
+  "static\\media\\Bailey_Wei_Resume.pdf": "static/media/Bailey_Wei_Resume.55839467.pdf",
   "static\\media\\adobe-pdf-icon.png": "static/media/adobe-pdf-icon.fd17fc0f.png",
-  "static\\media\\main-background.jpg": "static/media/main-background.c589a378.jpg",
+  "static\\media\\linkedin-logo.svg": "static/media/linkedin-logo.c480f1f9.svg",
+  "static\\media\\mail.svg": "static/media/mail.9e202b27.svg",
+  "static\\media\\main-background.jpg": "static/media/main-background.21cec347.jpg",
+  "static\\media\\phone.svg": "static/media/phone.f65bddc6.svg",
+  "static\\media\\portfolio.svg": "static/media/portfolio.b7697b63.svg",
   "static\\media\\project-background.jpeg": "static/media/project-background.7569ea2e.jpeg"
 }
